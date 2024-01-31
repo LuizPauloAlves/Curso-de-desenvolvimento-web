@@ -1,0 +1,49 @@
+Na seção 3, iniciamos a criação de um projeto, escolhendo um local para salvá-lo e criando uma pasta denominada "primeiro projeto".
+
+Dentro desse arquivo, exploramos a estrutura básica de uma página web, utilizando as tags HTML. Iniciamos com a tag <!DOCTYPE html>, indicando o uso do HTML5. Em seguida, abrimos e fechamos a tag <html> para delimitar o início e o fim do código HTML.
+
+Dentro da tag <html>, estabelecemos as duas principais seções de uma página web: <head> (cabeça) e <body> (corpo). Na seção <head>, empregamos a tag <title> para definir o título da página, que será exibido na barra do navegador. No exemplo, o título foi configurado como "Meu primeiro site".
+
+Na seção <body>, adicionamos conteúdo à página. Inserimos o texto "Meu primeiro site" e, em seguida, abordamos a tag <b>, responsável por deixar o texto em negrito. Destacamos a importância de fechar corretamente a tag para evitar erros de formatação.
+
+Posteriormente, enfatizamos as duas principais seções: <head> (cabeça) e <body> (corpo). Na cabeça (<head>), utilizamos a tag <title> para definir o título da página. Também ressaltamos a relevância da indentação no código HTML para uma melhor organização, demonstrando como espaçamentos podem ser empregados para uma leitura mais clara, mesmo que não tenham impacto visual no navegador.
+
+Prosseguindo, introduzimos o uso da tag <meta charset="UTF-8"> dentro da cabeça (<head>) para estabelecer a codificação UTF-8, assegurando o processamento correto de caracteres acentuados na página web. Observamos que essa tag pode ser simplificada em HTML5.
+
+Contrastando com outras tags como <title> e <h1>, destacamos que a tag <meta> não requer abertura e fechamento explícitos, pois seus valores são configurados diretamente nos atributos.
+
+Mencionamos também a tag <br> (quebra de linha), enfatizando que não exige fechamento, uma vez que não possui conteúdo. Explicamos que a barra ao final da tag <br> é opcional no HTML5.
+
+Em seguida, exploramos o uso das tags de cabeçalho (<h1>, <h2>, ..., <h6>) para criar títulos com diferentes níveis de destaque em uma página web. Destacamos a lógica hierárquica dessas tags, onde <h1> representa o título principal, seguido por <h2> e assim por diante até <h6>. Ressaltamos a importância da prática e sugerimos a realização de testes para familiarização com essas tags.
+
+Por fim, informamos que não existe uma tag <h7>, indicando que os cabeçalhos variam apenas de <h1> até <h6>.
+
+
+
+___________________________________________________________
+
+Nesta aula, o instrutor aborda o uso de parágrafos em HTML. Ele destaca que a tag de parágrafo <p> funciona como um bloco de texto, agrupando várias linhas como um único parágrafo. Ao utilizar a tag <p>, o instrutor demonstra como envolver um bloco de texto e como o espaçamento ocorre automaticamente após cada parágrafo.
+
+O instrutor também introduz a tag <hr> (horizontal rule ou linha horizontal) para criar linhas que separam conteúdos. Ele exemplifica o uso do <hr> para separar o título "Sobre a empresa" dos parágrafos seguintes.
+
+Além disso, o instrutor destaca que ao utilizar <hr>, uma linha é automaticamente gerada, proporcionando uma separação visual entre seções de conteúdo. Ele sugere a prática dessas técnicas para melhor compreensão.
+
+
+Nesta aula, o instrutor aborda a formatação de textos em HTML. Ele começa limpando o código existente, deixando apenas um blog vazio. Em seguida, ele introduz diferentes tags para formatação de texto.
+
+O instrutor mostra como criar texto em negrito usando a tag <strong>, enfatizando que é a recomendação atual em vez de usar a tag <b>. Em seguida, ele demonstra como adicionar itálico ao texto usando a tag <em> (ênfase). O instrutor continua mostrando como utilizar a tag <u> para sublinhar texto e a tag <s> para indicar que o texto está riscado ou errado.
+
+Ele ressalta que, embora essas tags sejam uma forma válida de formatar textos em HTML, mais adiante no curso, será apresentada uma abordagem mais avançada usando CSS para aplicar formatações. O instrutor encerra a aula indicando que o CSS oferece uma maneira mais interessante de aplicar estilos a textos.
+
+Nesta aula, o instrutor aborda o uso de listas ordenadas e não ordenadas em HTML. Ele começa apagando o conteúdo existente e demonstra como criar uma lista não ordenada utilizando a tag <ul> e itens de lista <li>. O instrutor destaca que os itens são marcados por padrão com círculos, mas também mostra como personalizar o marcador utilizando os atributos type com opções como "circle," "disc," e "square."
+
+Em seguida, ele introduz o conceito de comentários em HTML e mostra como adicionar observações ao código, que não são visíveis na renderização da página, utilizando a sintaxe <!-- comentário -->.
+
+O instrutor explora então listas ordenadas utilizando a tag <ol> e <li>. Ele demonstra como a lista ordenada possui uma contagem numérica padrão, mas é possível personalizar o tipo de marcador utilizando os atributos type com opções como "1" (numeral arábico), "A" (letra maiúscula), "a" (letra minúscula), "I" (algarismo romano maiúsculo), e "i" (algarismo romano minúsculo).
+
+O instrutor encerra a aula incentivando a prática com diferentes tipos de listas e ressaltando que, mais adiante no curso, serão abordadas técnicas avançadas de formatação utilizando CSS.
+
+
+
+
+
