@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All-Dev Code Blog</title>
+</head>
+<body>
+  <header>
+    <div id="logo"><img src="./assets/logo.png" alt="logo"></div>
+    <div id="procura">
+      <form action="index.html" method="get">
+        <input type="search" name="pesquisa" placeholder="Busque por algo">
+        <input type="submit" value="Lupa">
+      </form>
+    </div>
+    <div id="login">
+      <div id="foto_user"><img src="./assets/foto_usuario.png" alt="foto do usuario"></div>
+      <div id="nick_user">Harry</div>
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li>Menu</li>
+      <li>Editor de código</li>
+      <li>Comunidade</li>
+    </ul>
+  </nav>
+  <main>
+    <form action="index.html" method="post">
+      
+      <div id="code_area"><textarea></textarea></div>
+      <div id="descrição">
+        <label for="seu__projeto">Seu projeto</label><br>
+        <input type="text" name="projeto" id="projeto" size="64" maxlength="128" required placeholder="Nome do seu projeto"><br>
+        <textarea id="descricao__projeto" placeholder="Descrição do seu projeto"></textarea><br>
+        <label for="personalizacao">Personalização</label><br>
+        <input type="text" list="linguagem" name="nome__linguagem" id="nome__linguagem" value="Python" size="64">
+
+            <datalist id="linguagem">
+                <option value="Python">Python</option>
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+                <option value="Java">Java</option>
+                <option value="C#">C#</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="PHP">PHP</option>
+                <option value="Visual Basic">Visual Basic</option>
+                <option value="SQL">SQL</option>
+                <option value="Scratch">Scratch</option>
+            </datalist>
+      </div>
+
+      <input type="submit"  value="Salvar Projeto" id="enviar" name="enviar">
+    </form>
+  <main>
+  <div id="highlight">Visualizar com o highlight</div>
+</body>
+</html>
