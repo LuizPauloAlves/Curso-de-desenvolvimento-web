@@ -13,6 +13,7 @@
   <hr>
   <p>Horizontal rule é a tag hr para criar uma linha</p>
   <p>Aqui é a tag p para parágrafo</p>
+  <!-- hgroup serve para unir diverços h no mesmo lugar para edição -->
   <h1>Esta é uma tag de cabeçalho H1 </h1>
   <h2>Esta é uma tag de cabeçalho H2 </h2>
   <h3>Esta é uma tag de cabeçalho H3 </h3>
@@ -39,11 +40,31 @@
     <li type="I">para numeral romano</li>
     <li type="i">para o numeral ser minúsculo</li>
   </ol>
+  <!-- Lista descriptiva --->
+  <dl>
+    <dt>Unidade 01</dt>
+    <dd>
+      Apresentação do curso
+      Melhores softwares para usar neste curso
+    </dd>
+    <dt>Unidade 02</dt>
+    <dd>
+      Uma breve história do HTML5<br>
+      Especificações do HTML5<br>
+      HTML5 VS HTML4<br>
+    </dd>
+  </dl> 
   <!-- Apareceu uma imagem de Ferrari -->
+  <!-- pode se colocar alt para ser mais inclusivo no leitura, e title para definir um titulo para image -->
+  <!-- figure é para configurar figcaption e img juntas -->
+  <!-- figcaption é usada para dar legenda a figura -->
   <img src="https://raw.githubusercontent.com/LuizPauloAlves/Curso-de-desenvolvimento-web-2023/main/Se%C3%A7%C3%A3o%203%20-%20HTML/ferrari.jpg" width="400">
   <!-- width é para largura e height -->
   <br>
   <!-- dentro do a href="aqui coloca o link que quer ir"  -->
+  <!-- caso use a ttarget="_blank" pode abrir o arquivo em uma nova aba-->
+  <!-- para encontrar uma pasta em um arquivo separado usa ../ para pasta pai e ../../ para pasta avô assim por diante -->
+  <!-- para link na mesma pagina tem que usar uma id em um local e colocar # mais o nome da id em href -->
   <a href="https://raw.githubusercontent.com/LuizPauloAlves/Curso-de-desenvolvimento-web-2023/main/Se%C3%A7%C3%A3o%203%20-%20HTML/ferrari.jpg">link para referência com a tag a
   </a>
   <!-- width="x%" onde x é a porcentagem da tela, no caso é 100%-->
@@ -68,6 +89,7 @@
   </table>
   <br>
   <!-- <form action="processa.php" seria para processar os dados enviados no submit> -->
+  <h1>Formulários</h1>
   <form>
     Aqui é para testar os formulários:<br>
     <input type="text" name="nome_para_recuperar_as_infos"><br>
