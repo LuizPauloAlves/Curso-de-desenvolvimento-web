@@ -21,15 +21,16 @@
     </header>
     <nav>
       <div id="menu" class="separado">M E N U</div>
-      <div class="menu__div"><img src="./assets/editor.png" alt="Editor de código" class="logo__menu"> <span class="text__menu">Editor de código</span></div>
-      <div class="menu__div"><img src="./assets/comunidade.png" alt="Comunidade" class="logo__menu"> <span class="text__menu">Comunidade</span><br></div>
+      <div class="menu__div"><a href="index.html" id="atual__text"><img src="./assets/editor.png" alt="Editor de código" class="logo__menu" id="atual__logo"></a> <span class="text__menu"><a href="index.html" id="atual__text">Editor de código</a></span></div>
+      <div class="menu__div"><a href="comunidade.html"><img src="./assets/comunidade.png" alt="Comunidade" class="logo__menu"></a> <span class="text__menu"><a href="comunidade.html">Comunidade</a></span><br></div>
     </nav>
     <main>
       <section>
           <form action="index.html" method="post">
             <div id="formulario">
               <div id="code__area">
-                <textarea id="code__text"></textarea>
+                <textarea id="code__text" placeholder="Insira seu código aqui." ></textarea>
+                <button id="butaum__highlight">Visualizar com o highlight</button>
               </div>
               <div id="descricao">
                 <div id="projeto" class="separado">
@@ -40,7 +41,7 @@
                 <div class="separado" id="projeto">
                   <label for="personalizacao">P E R S O N A L I Z A Ç Ã O</label>
                 </div>
-                <div>
+                <div id="itens__personalizacao">
                   <select name="nome__linguagem" id="nome__linguagem" value="Python"
                   class="transparencia">
                     <option value="Python" selected>Python</option>
@@ -55,11 +56,7 @@
                     <option value="Scratch">Scratch</option>
                     class="transparencia"><br>
                   </select>
-                </div>
-                <div>
                   <input type="color" value="#6BD1FF" id="colores">
-                </div>
-                <div>
                   <input type="submit"  value="Salvar Projeto" id="enviar" name="enviar">
                 </div>
               </div>
@@ -67,6 +64,6 @@
           </form>
       </section>
     </main>
-    <div id="highlight"> <button id="butaum__highlight">Visualizar com o highlight</button> </div>
+    
   </body>
 </html>
