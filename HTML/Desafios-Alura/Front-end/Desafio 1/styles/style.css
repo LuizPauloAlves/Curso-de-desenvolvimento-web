@@ -128,7 +128,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 main {
-  display: block;
+  display: flex;
 }
 
 
@@ -280,7 +280,7 @@ option {
   /* dimensão */
   width: calc(1rem*1064/16);
   height: calc(1rem*464/16);
-  margin-left: calc(1rem*344/16);
+  margin-bottom: calc(1rem*24/16);
 
 }
 
@@ -295,8 +295,8 @@ option {
   margin-right: calc(1rem*24/16);
 
   /* aparencia do elemento */
-  background-color: #ffffff16;
-
+  background-color: #00000016;
+  border-radius: 0.5rem;
 
   /* Tipografia */
 
@@ -314,7 +314,8 @@ option {
   height: calc(1rem*464/16);
 
   /* aparencia do elemento */
-  background-color: #ffffff16;
+  background-color: #00000016;
+  border-radius: 0.5rem;
 
   /* Tipografia */
 
@@ -329,6 +330,7 @@ option {
   /* dimensão */
   width: calc(1rem*24/16);
   height: calc(1rem*24/16);
+  margin: 0.5rem;
 
   /* aparencia do elemento */
 
@@ -343,7 +345,7 @@ option {
   /* dimensão */
   width: calc(1rem*24/16);
   height: calc(1rem*24/16);
-
+  margin: 0.5rem;
   /* aparencia do elemento */
 
   /* Tipografia */
@@ -358,6 +360,7 @@ option {
   /* dimensão */
   width: calc(1rem*24/16);
   height: calc(1rem*24/16);
+  margin: 0.5rem;
 
   /* aparencia do elemento */
 
@@ -367,17 +370,159 @@ option {
 
 }
 
+.background__artigo {
+  /* posição */
 
+  /* dimensão */
+  width: calc(1rem*520/16);
+  height: calc(1rem*264/16);
+  padding-top: 24px;
 
+  /* aparencia do elemento */
+  background-color: #9AFF6B;
+  border-radius: 0.5rem;
 
+  /* Tipografia */
 
+  /* Outros */
+}
+
+.demostração__de__codigo {
+  /* posição */
+
+  /* dimensão */
+  width: calc(1rem*472/16);
+  height: calc(1rem*240/16);
+  margin-left: calc(1rem*24/16);
+
+  /* aparencia do elemento */
+  background-color: #000000;
+  border-radius: 0.5rem;
+
+  /* Tipografia */
+  font-family: 'Roboto Mono', monospace;
+  /* Outros */
+}
+
+.title__projeto {
+  /* posição */
+
+  /* dimensão */
+  width: calc(1rem*472/16);
+  height: 2rem;
+  margin-top: calc(1rem*24/16);
+  margin-left: calc(1rem*24/16);
+  margin-bottom: 0.5rem;
+  /* aparencia do elemento */
+
+  /* Tipografia */
+
+  /* Outros */
+}
+
+.descrição__projeto {
+  /* posição */
+
+  /* dimensão */
+  width: calc(1rem*472/16);
+  height: calc(1rem*24/16);
+  margin-top: calc(1rem*8/16);
+  margin-left: calc(1rem*24/16);
+  margin-bottom: calc(1rem*24/16);
+  /* aparencia do elemento */
+
+  /* Tipografia */
+
+  /* Outros */
+}
 
 
 .rodape__artigo {
   /* posição */
+  display: flex;
+  /* dimensão */
+  width: calc(1rem*472/16);
+  height: calc(1rem*40/16);
+  margin-left: calc(1rem*24/16);
+  margin-bottom: calc(1rem*24/16);
+  /* aparencia do elemento */
+
+  /* Tipografia */
+
+  /* Outros */
+}
+
+.rodape__comentario {
+  /* posição */
+  display: flex;
+  /* dimensão */
+  width: calc(1rem*58/16);
+  height: calc(1rem*40/16);
+
+  /* aparencia do elemento */
+
+  /* Tipografia */
+
+  /* Outros */
+}
+
+
+
+.rodape__like {
+  /* posição */
+  display: flex;
+  /* dimensão */
+  width: calc(1rem*58/16);
+  height: calc(1rem*40/16);
+  margin-right: calc(1rem*251/16);
+  /* aparencia do elemento */
+
+  /* Tipografia */
+
+  /* Outros */
+}
+.rodape__user {
+  /* posição */
+  display: flex;
+  /* dimensão */
+  width: calc(1rem*105/16);
+  height: calc(1rem*40/16);
+
+  /* aparencia do elemento */
+
+  /* Tipografia */
+
+  /* Outros */
+}
+
+.rodape__itens {
+  /* posição */
+
 
   /* dimensão */
+  width: calc(1rem*10/16);
+  height: calc(1rem*24/16);
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
 
+  /* aparencia do elemento */
+
+  /* Tipografia */
+
+  /* Outros */
+}
+
+.rodape__user__text {
+  /* posição */
+
+
+  /* dimensão */
+  width: calc(1rem*57/16);
+  height: calc(1rem*24/16);
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
   /* aparencia do elemento */
 
   /* Tipografia */
