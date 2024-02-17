@@ -1,0 +1,299 @@
+/* posição */
+
+  /* dimensão */
+
+  /* aparencia do elemento */
+
+  /* Tipografia */
+
+  /* Outros */
+
+/* ---------------- */
+  
+  /* calc(1rem* /16) */ 
+
+
+
+  /* Color */
+
+
+/* --buff: #d1a275 */
+/* --tan: #d5b89c */
+/* --buff-2: #ecb87c */
+/* --almond: #ebdaca */
+/* --buff-3: #d09b67 */
+
+/* --bronze: #c4833e */
+/* --seal-brown: #522008 */
+/* --brown: #a25713 */
+/* --buff: #e1ab7c */
+/* --tigers-eye: #a1612a */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #D1A27550;
+  font-family: "Roboto", sans-serif;
+}
+
+.cabeçario {
+  width: 90rem;
+  height: 12.5rem;
+
+  background-color: #A1612A ;
+
+}
+
+#tecblog_header {
+  padding-top: 2.875rem;
+  margin-bottom: 2.25rem;
+  margin-left: 38.5rem;
+  margin-right: 38.5rem;
+
+  font-size: 3.5rem;
+  font-weight: 400;
+
+}
+
+#palavra_Tec {
+  color: #522008;
+}
+
+#palavra_Blog {
+  color: #ECB87C;
+}
+
+nav{
+  margin-top: 2.25rem;
+  margin-bottom: 1.5rem;
+  margin-left: 22rem;
+  margin-right: 22rem;
+}
+
+li {
+  display: inline;
+}
+
+.navA {
+  padding: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  text-decoration: none;
+
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.navA:link, .navA:visited{
+  color: #ECB87C;
+}
+
+.navA:hover {
+  background-color: #ECB87C;
+
+  color: #522008;
+}
+
+
+.navA:active {
+  background-color: #ECB87C;
+
+  color: #D09B67;
+}
+
+main{
+  width: 90rem;
+}
+
+.artigos{
+  /* posição */
+  display: flex;
+  /* dimensão */
+  margin: 2rem 8.5rem;
+  /* aparencia do elemento */
+
+  /* Tipografia */
+
+  /* Outros */
+}
+
+.artigo {
+  /* posição */
+
+  /* dimensão */
+  width: 49rem;
+  padding: 2.5rem;
+
+  /* aparencia do elemento */
+  border-radius: 1rem;
+  background-color: #D09B67;
+  /* Tipografia */
+
+  /* Outros */
+}
+
+.title_postagem {
+  /* posição */
+
+  /* dimensão */
+  margin-bottom: 0.5rem;
+  /* aparencia do elemento */
+
+  /* Tipografia */
+  font-size: 2rem;
+  font-weight: 700;
+  color: #522008;
+  /* Outros */
+}
+
+.resumo_postagem {
+  /* posição */
+
+  /* dimensão */
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  /* aparencia do elemento */
+
+  /* Tipografia */
+  font-size: 1rem;
+  font-weight: 400;
+  color: #522008;
+  /* Outros */
+}
+.imagem__artigo__blog {
+  /* posição */
+
+  /* dimensão */
+  width: 49rem;
+  height: 32.5rem;
+  /* aparencia do elemento */
+  border-radius: 0.5rem;
+  /* Tipografia */
+
+  /* Outros */
+}
+.info_direita {
+  /* posição */
+
+  /* dimensão */
+  margin-left: 2rem;
+  /* aparencia do elemento */
+  /* Tipografia */
+
+  /* Outros */
+}
+.info_direita_blocos {
+  /* posição */
+
+  /* dimensão */
+  width: 272px;
+  height: 220px;
+  padding: 10px;
+  margin-bottom: 2rem;
+  /* aparencia do elemento */
+  background-color: #D09B67;
+  border-radius: 0.5rem;
+  /* Tipografia */
+
+  /* Outros */
+}
+
+.title_direita {
+  /* posição */
+  display: flex;
+  /* dimensão */
+  width: 15.75rem;
+  height: 2.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  /* aparencia do elemento */
+  background-color: #A1612A;
+  border-radius: 0.8rem;
+  align-items: center;
+  /* Tipografia */
+  font-size: 1.5rem;
+  font-weight: 700;
+  /* Outros */
+}
+.leia__mais{
+  
+  /* posição */
+
+  /* dimensão */
+  padding: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  /* aparencia do elemento */
+
+  /* Tipografia */
+  color: #522008;
+  font-size: 0.75rem;
+  text-decoration: none;
+
+  /* Outros */
+}
+.leia__mais:link,.leia__mais:visited{
+  color: #522008;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+.leia__mais:hover{
+  padding: 0;
+  color:#A1612A;
+  background-color: #D09B67;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+.resumo {
+  /* posição */
+
+  /* dimensão */
+  width: 15.25rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+
+  /* aparencia do elemento */
+
+  /* Tipografia */
+  color: #522008;
+  /* Outros */
+}
+hr {
+  /* posição */
+
+  /* dimensão */
+
+  /* aparencia do elemento */
+  background-color: #522008;
+  /* Tipografia */
+
+  /* Outros */
+}
+.categorias{
+  /* posição */
+
+  /* dimensão */
+  margin: 0;
+  padding: 0;
+  /* aparencia do elemento */
+
+  /* Tipografia */
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  /* Outros */
+}
+.categorias:link, .categorias:visited {
+  color: #EBDACA;
+}
+.categorias:hover {
+  background-color: #D09B67;
+  color: #522008;
+}
